@@ -18,3 +18,5 @@ services:
       POSTGRESS_DB: fiapdb
       MYSQL_USER: postgres
       TZ: "America/Bahia"
+    volumes:
+      - "./data/postgres:/var/lib/postgresql/data"  
