@@ -15,6 +15,7 @@ services:
     ports: 
       - 5432:5432
     environment:
+      POSTGRESS_PASSWORD: 123456
       POSTGRESS_DB: fiapdb
       POSTGRESS_USER: postgres
       POSTGRES_PASSWORD: 123456
