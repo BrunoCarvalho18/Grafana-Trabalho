@@ -19,5 +19,3 @@ services:
        POSTGRES_USER: postgres
        POSTGRES_PASSWORD: 123456
        TZ: America/Bahia
-    volumes:
-      - ./data/postgres:/var/lib/postgresql/data  
